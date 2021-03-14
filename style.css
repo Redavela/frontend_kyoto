@@ -4,7 +4,7 @@
     padding: 0;
 }
 html {
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 body {
     font-family: Nunito sans, sans-serif;
@@ -614,7 +614,9 @@ nav {
     margin-bottom: 50px;
     padding: 70px 0 0 0;
 }
-
+.section-contact strong {
+    color: #ff0033;
+}
 .container-form {
     margin: 0 auto;
     width: 70%;
